@@ -1,0 +1,8 @@
+[user]
+  name = D10TYO
+  email = git@d10.tokyo
+[core]
+  editor = vim
+[alias]
+  co  = checkout
+  st  = status
