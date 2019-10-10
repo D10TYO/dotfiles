@@ -23,7 +23,7 @@ chmod 600 ~/.ssh/*
 ssh-keygen -t ed25519 -N "" -f ~/.ssh/github -C git@d10.tokyo
 ```
 
-Paste `github.pub` to "New SSH key" https://github.com/settings/keys
+Paste `github.pub` to "New SSH key" of https://github.com/settings/keys
 
 ## .ssh/config
 
