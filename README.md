@@ -30,15 +30,6 @@ Paste `github.pub` to "New SSH key" of https://github.com/settings/keys
 ```shell
 vim ~/.ssh/config
 
-Host *
-  StrictHostKeyChecking no
-  UserKnownHostsFile=/dev/null
-  ServerAliveInterval 15
-  ServerAliveCountMax 30
-  AddKeysToAgent yes
-  UseKeychain yes
-  IdentitiesOnly yes
-
 Host github.com
   HostName github.com
   IdentityFile ~/.ssh/github
@@ -50,6 +41,5 @@ Host github.com
 
 ```shell
 ssh -T github.com
-
 git clone git@github.com:D10TYO/dotfiles.git
 ```
